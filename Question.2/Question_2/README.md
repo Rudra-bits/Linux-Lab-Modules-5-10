@@ -44,3 +44,13 @@ int main() {
 
     return 0;
 }
+How to Compile and Run
+Bash
+gcc server_monitor.c -o server_monitor
+./server_monitor
+Expected Output
+
+Parent monitoring child with PID: [Child_PID]
+Child worker started with PID: [Child_PID]
+Child is unresponsive. Terminating using signal...
+Parent exiting safely.
